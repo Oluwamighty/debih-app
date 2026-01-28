@@ -1,5 +1,5 @@
 {
-  "name": "debih-agent-app",
+  "name": "debih-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "@radix-ui/react-slot": "^1.2.4",
     "clsx": "^2.1.1",
     "lucide-react": "^0.563.0",
-    "next": "16.1.4",
+    "next": "15.1.4",
     "nodemailer": "^7.0.12",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -25,7 +25,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.1.4",
+    "eslint-config-next": "15.1.4",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
