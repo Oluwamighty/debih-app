@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* CSS variables for theme configuration (Tailwind v4) */
+@theme {
+  --color-deep-navy: #0E1B2A;
+  --color-electric-gold: #F2B705;
+  --color-steel-grey: #2F2F2F;
+  --color-industrial-light: #F4F6F8;
+  --color-success: #8FAE3B;
+  --color-soft-red: #F87171;
+  /* Approximated Soft Red */
+
+  --font-display: var(--font-dm-serif);
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #F4F6F8;
+  /* Industrial Light */
+  --foreground: #2F2F2F;
+  /* Steel Grey */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
