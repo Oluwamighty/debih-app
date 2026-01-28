@@ -1,7 +1,7 @@
 'use server';
 
 const N8N_HOST = process.env.NEXT_PUBLIC_N8N_HOST || 'https://oluwamighty42.app.n8n.cloud';
-const CHAT_WEBHOOK_ID = process.env.CHAT_WEBHOOK_ID || 'f93aa771-a860-499c-8a03-1b18357554dd';
+const CHAT_WEBHOOK_ID = process.env.CHAT_WEBHOOK_ID || 'f93aa771-a860-499c-8a03-1b18357554dd/chat';
 const DATA_WEBHOOK_ID = process.env.DATA_WEBHOOK_ID || 'PENDING_CREATION';
 
 export async function sendChatMessage(message: string, sessionId: string) {
